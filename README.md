@@ -4,7 +4,7 @@ System programmer exploring Machine Learning, Deep Learning, Data Science, and C
 
 > *"If it works, it's engineering. If it doesn't, it's research."*
 
-## <img src="https://cdn.simpleicons.org/wolfram/DD1100" width="40" height="40"/> Socials
+## <img src="https://cdn.simpleicons.org/linktree/43E55E" width="28"/> Socials
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/abinesh-n-05b1a1260)
 [![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?logo=github&logoColor=white)](https://github.com/Abineshabee)
