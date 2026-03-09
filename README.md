@@ -2,7 +2,7 @@
 
 System programmer exploring Machine Learning, Deep Learning, Data Science, and Cybersecurity, focused on research and building intelligent systems. I like turning ideas into code, data into insights, and bugs into unexpected learning experiences.
 
- <sub><i>"If it works, it's engineering. If it doesn't, it's research."</i></sub>
+> *"If it works, it's engineering. If it doesn't, it's research."*
 
 ## @ Socials
 
