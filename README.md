@@ -4,8 +4,6 @@ System programmer exploring Machine Learning, Deep Learning, Data Science, and C
 
 > *"If it works, it's engineering. If it doesn't, it's research."*
 
----
-
 ## 🌐 Socials
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/abinesh-n-05b1a1260)
@@ -16,8 +14,6 @@ System programmer exploring Machine Learning, Deep Learning, Data Science, and C
 [![FOSS United](https://img.shields.io/badge/FOSS%20United-%2300A86B.svg?logo=discourse&logoColor=white)](https://forum.fossunited.org/u/spyder)
 [![Stack Overflow](https://img.shields.io/badge/-Stackoverflow-FE7A16?logo=stack-overflow&logoColor=white)](https://stackoverflow.com/users/Abineshabee)
 [![Email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:abineshabee2@gmail.com)
-
----
 
 ## 💻 Tech Stack
 
