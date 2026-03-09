@@ -12,7 +12,7 @@ System programmer exploring Machine Learning, Deep Learning, Data Science, and C
 [![Hugging Face](https://img.shields.io/badge/HuggingFace-%23FFD21E.svg?logo=huggingface&logoColor=black)](https://huggingface.co/Abinesh1010)
 [![Codeforces](https://img.shields.io/badge/Codeforces-1F8ACB?logo=codeforces&logoColor=white)](https://codeforces.com/profile/abineshabee2)
 [![FOSS United](https://img.shields.io/badge/FOSS%20United-%2300A86B.svg?logo=discourse&logoColor=white)](https://forum.fossunited.org/u/spyder)
-[![Stack Overflow](https://img.shields.io/badge/-Stackoverflow-FE7A16?logo=stack-overflow&logoColor=white)]([https://stackoverflow.com/users/Abineshabee](https://stackexchange.com/users/27702789/abineshabee)
+[![Stack Overflow](https://img.shields.io/badge/-Stackoverflow-FE7A16?logo=stack-overflow&logoColor=white)](https://stackexchange.com/users/27702789/abineshabee)
 [![Email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:abineshabee2@gmail.com)
 
 ## 💻 Tech Stack
