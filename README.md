@@ -4,13 +4,7 @@ System programmer exploring Machine Learning, Deep Learning, Data Science, and C
 
 ###### *"If it works, it's engineering. If it doesn't, it's research."*
 
-```bash
-$ whoami --year 2022
-> Hello World
-
-$ whoami --now
-> Reads Errors Before Googling 
-```
+![whoami](./whoami_natural.svg)
 
 ## @ Socials
 
