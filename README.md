@@ -4,7 +4,9 @@ System programmer exploring Machine Learning, Deep Learning, Data Science, and C
 
 ###### *"If it works, it's engineering. If it doesn't, it's research."*
 
-![whoami](./whoami_natural.svg)
+<p align="center">
+  <img src="whoami_natural_bash.svg" width="600" />
+</p>
 
 ## @ Socials
 
