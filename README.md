@@ -2,6 +2,10 @@
 
 System programmer exploring Machine Learning, Deep Learning, Data Science, and Cybersecurity, focused on research and building intelligent systems. I like turning ideas into code, data into insights, and bugs into unexpected learning experiences.
 
+<p align="center">
+  <b>2022: Hello World → Now: Thinks Before Googling </b>
+</p>
+
 ###### *"If it works, it's engineering. If it doesn't, it's research."*
 
 ## @ Socials
