@@ -15,7 +15,7 @@ System programmer exploring Machine Learning, Deep Learning, Data Science, and C
 [![Codeforces](https://img.shields.io/badge/Codeforces-1F8ACB?logo=codeforces&logoColor=white)](https://codeforces.com/profile/abineshabee2)
 [![FOSS United](https://img.shields.io/badge/FOSS%20United-%2300A86B.svg?logo=discourse&logoColor=white)](https://forum.fossunited.org/u/spyder)
 [![Stack Overflow](https://img.shields.io/badge/-Stackoverflow-FE7A16?logo=stack-overflow&logoColor=white)](https://stackexchange.com/users/27702789/abineshabee)
-[![Email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:abineshabee2@gmail.com)
+
 
 ## **`</>`** Tech Stack
 
@@ -58,3 +58,7 @@ System programmer exploring Machine Learning, Deep Learning, Data Science, and C
 ![Android](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)
 ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
+
+## Certifications
+
+[![Credly](https://img.shields.io/badge/Credly-Profile-blue?logo=credly)](https://www.credly.com/users/abinesh-n-abee)
