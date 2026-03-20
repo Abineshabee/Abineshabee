@@ -61,7 +61,6 @@ System programmer exploring Machine Learning, Deep Learning, Data Science, and C
 
 ## 🎓 Certifications
 
-- [![Credly](https://img.shields.io/badge/Credly-Profile-blue?logo=credly)](https://www.credly.com/users/abinesh-n-abee)
-- ![Linux Foundation](https://img.shields.io/badge/Linux%20Foundation-Certified-yellow?logo=linux)
-- ![Google](https://img.shields.io/badge/Google-Certified-red?logo=google)
-- ![IBM](https://img.shields.io/badge/IBM-Certified-blue?logo=ibm)
+[![Linux Foundation](https://img.shields.io/badge/Linux%20Foundation-Certified-yellow?logo=linux)](https://www.credly.com/users/abinesh-n-abee)
+[![Google](https://img.shields.io/badge/Google-Certified-red?logo=google)](https://www.credly.com/users/abinesh-n-abee)
+[![IBM](https://img.shields.io/badge/IBM-Certified-blue?logo=ibm)](https://www.credly.com/users/abinesh-n-abee)
