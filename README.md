@@ -8,7 +8,7 @@ System programmer exploring Machine Learning, Deep Learning, Data Science, and C
 
 ## @ Socials
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/abinesh-n-05b1a1260)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/abineshabee)
 [![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?logo=github&logoColor=white)](https://github.com/Abineshabee)
 [![Kaggle](https://img.shields.io/badge/Kaggle-035a7d?logo=kaggle&logoColor=white)](https://www.kaggle.com/abineshnabee)
 [![Hugging Face](https://img.shields.io/badge/HuggingFace-%23FFD21E.svg?logo=huggingface&logoColor=black)](https://huggingface.co/Abinesh1010)
