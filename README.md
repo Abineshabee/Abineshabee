@@ -2,7 +2,9 @@
 
 System programmer exploring Machine Learning, Deep Learning, Data Science, and Cybersecurity, focused on research and building intelligent systems. I like turning ideas into code, data into insights, and bugs into unexpected learning experiences.
 
-![Banner](Banner.svg)
+<p align="center">
+  <img src="Banner.gif" width="600"/>
+</p>
 
 <p align="center">
   <img src="whoami_natural_quote.svg" width="600" /> 
