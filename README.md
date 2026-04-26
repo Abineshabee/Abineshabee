@@ -3,7 +3,12 @@
 System programmer exploring Machine Learning, Deep Learning, Data Science, and Cybersecurity, focused on research and building intelligent systems. I like turning ideas into code, data into insights, and bugs into unexpected learning experiences.
 
 <p align="center">
-  <img src="Banner.gif" width="600"/>
+  <svg width="600" height="auto">
+    <clipPath id="round">
+      <rect x="0" y="0" width="100%" height="100%" rx="25" ry="25"/>
+    </clipPath>
+    <image href="Banner.gif" width="100%" clip-path="url(#round)" />
+  </svg>
 </p>
 
 <p align="center">
