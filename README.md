@@ -1,3 +1,5 @@
 <p align="center">
-  <img src="Banner.svg" width="600" /> 
+  
+![Banner](Banner.svg)
+
 </p>
