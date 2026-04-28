@@ -10,7 +10,7 @@ System programmer exploring Machine Learning, Deep Learning, Data Science, and C
 </td>
 
 <td>
-  <img src="terminal.svg" width="450"/>
+  <img src="terminal.svg" width="425"/>
 </td>
 </tr>
 </table>
