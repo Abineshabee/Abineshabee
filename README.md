@@ -1,4 +1,6 @@
-
+<p align="center">
+  <img src="fix.svg" width="200px" />
+</p>
 # About Me
 
 System programmer exploring Machine Learning, Deep Learning, Data Science, and Cybersecurity, focused on research and building intelligent systems. I like turning ideas into code, data into insights, and bugs into unexpected learning experiences.
