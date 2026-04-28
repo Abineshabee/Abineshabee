@@ -10,7 +10,7 @@ System programmer exploring Machine Learning, Deep Learning, Data Science, and C
 </td>
 
 <td align="right">
-  <img src="whoami_natural_quote.svg" width="300"/>
+  <img src="whoami_natural_quote.svg" width="500" height="1000" />
 </td>
 </tr>
 </table>
