@@ -3,17 +3,10 @@
 
 System programmer exploring Machine Learning, Deep Learning, Data Science, and Cybersecurity, focused on research and building intelligent systems. I like turning ideas into code, data into insights, and bugs into unexpected learning experiences.
 
-<table>
-<tr>
-<td align="left">
-  <img src="gemini-svg.svg" width="650"/>
-</td>
-
-<td align="right">
-  <img src="whoami_natural_quote.svg" width="1200" height="2000" />
-</td>
-</tr>
-</table>
+<p align="left">
+  <img src="gemini-svg.svg" width="700"/>
+  <img align="right" src="whoami_natural_quote.svg" width="300"/>
+</p>
 
 ## @ Socials
 
