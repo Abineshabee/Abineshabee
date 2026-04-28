@@ -3,17 +3,10 @@
 
 System programmer exploring Machine Learning, Deep Learning, Data Science, and Cybersecurity, focused on research and building intelligent systems. I like turning ideas into code, data into insights, and bugs into unexpected learning experiences.
 
-<table align="center">
-<tr>
-<td>
-  <img src="fix.svg" width="700"/>
-</td>
-
-<td>
-  <img src="terminal.svg" width="425"/>
-</td>
-</tr>
-</table>
+<p align="center">
+  <img src="fix.svg" width="55%" />
+  <img src="terminal.svg" width="38%" />
+</p>
 
 ## @ Socials
 
