@@ -7,7 +7,7 @@ System programmer exploring Machine Learning, Deep Learning, Data Science, and C
 </p>
 
 <p align="center">
-  <img src="gemini-svg.svg" width="700" /> 
+  <img src="gemini-svg.svg" width="1200" /> 
 </p>
 ## @ Socials
 
