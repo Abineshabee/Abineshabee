@@ -1,0 +1,426 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="660" height="400" viewBox="0 0 660 400">
+
+  <defs>
+    <style>
+      @keyframes blink{0%,100%{opacity:1}50%{opacity:0}}
+      .cursor{animation:blink 1s step-end infinite}
+      @keyframes twinkle0{0%,100%{opacity:0.2}50%{opacity:0.9}}
+      @keyframes twinkle1{0%,100%{opacity:0.3}50%{opacity:0.8}}
+      @keyframes twinkle2{0%,100%{opacity:0.15}50%{opacity:0.95}}
+      @keyframes twinkle3{0%,100%{opacity:0.25}50%{opacity:0.75}}
+      @keyframes twinkle4{0%,100%{opacity:0.2}50%{opacity:0.85}}
+      @keyframes twinkle5{0%,100%{opacity:0.35}50%{opacity:0.7}}
+      @keyframes twinkle6{0%,100%{opacity:0.1}50%{opacity:0.9}}
+      @keyframes twinkle7{0%,100%{opacity:0.28}50%{opacity:0.82}}
+    </style>
+    <clipPath id="mainClip">
+      <rect x="0" y="28" width="660" height="372"/>
+    </clipPath>
+    <clipPath id="logClip">
+      <rect x="12" y="76" width="300" height="50"/>
+    </clipPath>
+    <clipPath id="roundedClip">
+      <rect x="0" y="0" width="660" height="400" rx="10" ry="10"/>
+    </clipPath>
+  </defs>
+
+  <!-- Rounded clip group wraps everything so all 4 corners are curved -->
+  <g clip-path="url(#roundedClip)">
+
+  <!-- ═══════════════════════════════════════════════ -->
+  <!-- OUTER WRAP: terminal window frame               -->
+  <!-- ═══════════════════════════════════════════════ -->
+  <rect x="0" y="0" width="660" height="400" rx="10" ry="10" fill="#0a0a0a"/>
+
+  <!-- ═══════════════════════════════════════════════ -->
+  <!-- TITLE BAR                                       -->
+  <!-- ═══════════════════════════════════════════════ -->
+  <rect x="0" y="0" width="660" height="28" rx="10" ry="10" fill="#1c1c1c"/>
+  <rect x="0" y="14" width="660" height="14" fill="#1c1c1c"/>
+  <!-- Traffic light dots -->
+  <circle cx="20" cy="14" r="6" fill="#ff5f57"/>
+  <circle cx="36" cy="14" r="6" fill="#ffbd2e"/>
+  <circle cx="52" cy="14" r="6" fill="#28c840"/>
+  <!-- Title -->
+  <text x="330" y="18" text-anchor="middle" font-family="monospace" font-size="11" fill="#555">bash — ~/dev/github-battle</text>
+
+  <!-- ═══════════════════════════════════════════════ -->
+  <!-- CANVAS BACKGROUND (below titlebar)             -->
+  <!-- ═══════════════════════════════════════════════ -->
+  <rect x="0" y="28" width="660" height="372" fill="#0a0a0a"/>
+
+  <!-- ═══════════════════════════════════════════════ -->
+  <!-- STARS (twinkling background dots)              -->
+  <!-- ═══════════════════════════════════════════════ -->
+  <rect x="50" y="108" width="2" height="2" fill="#1e3a1e" style="animation:twinkle0 2.1s ease-in-out infinite"/>
+  <rect x="140" y="123" width="2" height="2" fill="#1e3a1e" style="animation:twinkle1 1.8s ease-in-out infinite"/>
+  <rect x="230" y="100" width="2" height="2" fill="#1e3a1e" style="animation:twinkle2 2.5s ease-in-out infinite"/>
+  <rect x="310" y="116" width="2" height="2" fill="#1e3a1e" style="animation:twinkle3 1.6s ease-in-out infinite"/>
+  <rect x="410" y="93" width="2" height="2" fill="#1e3a1e" style="animation:twinkle4 2.2s ease-in-out infinite"/>
+  <rect x="500" y="106" width="2" height="2" fill="#1e3a1e" style="animation:twinkle5 1.9s ease-in-out infinite"/>
+  <rect x="80" y="138" width="2" height="2" fill="#1e3a1e" style="animation:twinkle6 2.7s ease-in-out infinite"/>
+  <rect x="350" y="130" width="2" height="2" fill="#1e3a1e" style="animation:twinkle7 1.7s ease-in-out infinite"/>
+
+  <!-- ═══════════════════════════════════════════════ -->
+  <!-- HUD: HP bar + score line                        -->
+  <!-- ═══════════════════════════════════════════════ -->
+  <rect x="0" y="28" width="660" height="48" fill="#0a0a0a"/>
+  <line x1="0" y1="76" x2="660" y2="76" stroke="#1a2a1a" stroke-width="1"/>
+  <text x="12" y="44" font-family="monospace" font-size="10" fill="#28c840">HP: [########] 100%</text>
+  <text x="12" y="58" font-family="monospace" font-size="10" fill="#e67e22" id="scoreText">BUGS KILLED: 11   SCORE: 1484   LVL: INF</text>
+
+  <!-- ═══════════════════════════════════════════════ -->
+  <!-- GITHUB LOGO (top-right)                        -->
+  <!-- ═══════════════════════════════════════════════ -->
+  <!-- Positioned at right:10px, top:45px from canvas = y=73 from SVG top -->
+  <!-- SVG inside HTML was 44x44 viewBox 0 0 44 25, placed at canvas top:45px right:10px -->
+  <!-- In our coordinate system: x = 660-10-44 = 606, y = 28+45 = 73 -->
+  <g transform="translate(606,73)">
+    <!-- Head -->
+    <rect x="13" y="14.5" width="18" height="17" fill="#c9d1d9"/>
+    <!-- Cat ears -->
+    <rect x="13" y="8" width="4" height="5" fill="#c9d1d9"/>
+    <rect x="27" y="8" width="4" height="5" fill="#c9d1d9"/>
+    <!-- Eyes -->
+    <rect x="16.7" y="20" width="3.6" height="4" fill="#1a1a1a"/>
+    <rect x="23.7" y="20" width="3.6" height="4" fill="#1a1a1a"/>
+    <!-- Left whiskers -->
+    <rect x="8" y="24" width="5" height="1" fill="#c9d1d9"/>
+    <rect x="8" y="26" width="5" height="1" fill="#c9d1d9"/>
+    <rect x="8" y="28" width="5" height="1" fill="#c9d1d9"/>
+    <!-- Right whiskers -->
+    <rect x="31" y="24" width="5" height="1" fill="#c9d1d9"/>
+    <rect x="31" y="26" width="5" height="1" fill="#c9d1d9"/>
+    <rect x="31" y="28" width="5" height="1" fill="#c9d1d9"/>
+    <!-- GitHub label -->
+    <text x="22" y="45" text-anchor="middle" font-family="monospace" font-size="8" fill="#58a6ff">GitHub</text>
+  </g>
+
+  <!-- ═══════════════════════════════════════════════ -->
+  <!-- LOG BOX (scrolling battle log)                 -->
+  <!-- ═══════════════════════════════════════════════ -->
+  <g clip-path="url(#logClip)">
+    <g id="logLines"><text x="12" y="82" font-family="monospace" font-size="9" fill="#2ecc71" opacity="0.35" clip-path="url(#logClip)">[TIP ] Fix applied!</text><text x="12" y="95" font-family="monospace" font-size="9" fill="#e67e22" opacity="0.35" clip-path="url(#logClip)">[HERO] Targeting OOM...</text><text x="12" y="108" font-family="monospace" font-size="9" fill="#ff6600" opacity="0.35" clip-path="url(#logClip)">[HERO] Attacking OOM!</text><text x="12" y="121" font-family="monospace" font-size="9" fill="#2ecc71" opacity="0.35" clip-path="url(#logClip)">[KILL] OOM destroyed!</text></g>
+  </g>
+
+  <!-- ═══════════════════════════════════════════════ -->
+  <!-- GROUND LINE                                    -->
+  <!-- ═══════════════════════════════════════════════ -->
+  <!-- In HTML: position:absolute;bottom:46px in canvas(372px) => y=372-46=326 from canvas top => y=28+326=354 -->
+  <rect x="0" y="306" width="660" height="2" fill="#1a4a1a"/>
+
+  <!-- ═══════════════════════════════════════════════ -->
+  <!-- SCENE: animated hero + bugs (JS-driven)        -->
+  <!-- ═══════════════════════════════════════════════ -->
+  <g id="scene" clip-path="url(#mainClip)">
+    <!-- Hero starts at heroX=80, heroY=GROUND-HERO_H = 278-50=228 in scene coords -->
+    <!-- Scene coords offset: +28 for titlebar in SVG -->
+    
+  <g id="heroG" transform="translate(306.11803192438623,257.85340594730746) scale(1,1)"><rect x="-29" y="-31" width="8" height="6" rx="1" fill="#c47848"/><rect x="21" y="-31" width="8" height="6" rx="1" fill="#c47848"/><rect x="-13" y="-50" width="26" height="3" rx="1" fill="#c47848"/><rect x="-22" y="-43" width="44" height="34" rx="2" fill="#c47848"/><rect x="-17" y="-37" width="5" height="11" rx="1" fill="#1a0a00"/><rect x="6" y="-37" width="5" height="11" rx="1" fill="#1a0a00"/><rect x="-21" y="-15" width="8" height="14" rx="1" fill="#b06030"/><rect x="-10" y="-18" width="8" height="14" rx="1" fill="#b06030"/><rect x="2" y="-15" width="8" height="14" rx="1" fill="#b06030"/><rect x="13" y="-18" width="8" height="14" rx="1" fill="#b06030"/></g><g transform="translate(450.9785472667044,235.3897888840606)"><rect x="-20" y="-24" width="7" height="9" rx="1" fill="#c0392b"/><rect x="13" y="-24" width="7" height="9" rx="1" fill="#c0392b"/><rect x="-18" y="-16" width="36" height="32" rx="2" fill="#c0392b"/><rect x="-14" y="-11" width="9" height="9" rx="1" fill="#1a0000"/><rect x="5" y="-11" width="9" height="9" rx="1" fill="#1a0000"/><rect x="-12" y="-9" width="4" height="4" fill="#ff9900"/><rect x="7" y="-9" width="4" height="4" fill="#ff9900"/><rect x="-14" y="4" width="4" height="6" rx="1" fill="#1a0000"/><rect x="10" y="4" width="4" height="6" rx="1" fill="#1a0000"/><rect x="-20" y="12" width="8" height="6" rx="1" fill="#c0392b"/><rect x="12" y="12" width="8" height="6" rx="1" fill="#c0392b"/><text x="0" y="-30" text-anchor="middle" font-family="monospace" font-size="8" fill="#e74c3c">SegFault</text></g><g transform="translate(104.76200323193625,226.0242131001722)"><rect x="-20" y="-24" width="7" height="9" rx="1" fill="#7d3c98"/><rect x="13" y="-24" width="7" height="9" rx="1" fill="#7d3c98"/><rect x="-18" y="-16" width="36" height="32" rx="2" fill="#7d3c98"/><rect x="-14" y="-11" width="9" height="9" rx="1" fill="#1a001a"/><rect x="5" y="-11" width="9" height="9" rx="1" fill="#1a001a"/><rect x="-12" y="-9" width="4" height="4" fill="#d35400"/><rect x="7" y="-9" width="4" height="4" fill="#d35400"/><rect x="-14" y="4" width="4" height="6" rx="1" fill="#1a001a"/><rect x="10" y="4" width="4" height="6" rx="1" fill="#1a001a"/><rect x="-20" y="12" width="8" height="6" rx="1" fill="#7d3c98"/><rect x="12" y="12" width="8" height="6" rx="1" fill="#7d3c98"/><text x="0" y="-30" text-anchor="middle" font-family="monospace" font-size="8" fill="#9b59b6">InfLoop</text></g></g>
+
+  <!-- ═══════════════════════════════════════════════ -->
+  <!-- PROMPT BAR                                     -->
+  <!-- ═══════════════════════════════════════════════ -->
+  <rect x="0" y="354" width="660" height="46" fill="#0a0a0a"/>
+  <line x1="0" y1="354" x2="660" y2="354" stroke="#1a2a1a" stroke-width="1"/>
+  <text x="12" y="381" font-family="monospace" font-size="11" fill="#28c840">abinesh@dev:~$ </text>
+  <text x="120" y="381" font-family="monospace" font-size="11" fill="#28c840">./run_battle.sh</text>
+  <!-- Blinking cursor -->
+  <rect x="228" y="369" width="7" height="12" fill="#28c840" class="cursor"/>
+
+  <!-- ═══════════════════════════════════════════════ -->
+  <!-- EMBEDDED JS: full game logic                   -->
+  <!-- ═══════════════════════════════════════════════ -->
+  <script type="text/javascript"><![CDATA[
+(function(){
+  const NS='http://www.w3.org/2000/svg';
+  const W=660,H=326,GROUND=278,HERO_W=44,HERO_H=50,BUG_W=36,BUG_H=32;
+  const HERO_SPEED=1.4;
+  let score=0,killed=0;
+  let heroX=80,heroY=GROUND-HERO_H;
+  let heroFacing=1,heroState='idle';
+  let bugs=[],tipEl=null,tipTimer=0,logLines=[];
+  let frame=0,heroWalkPhase=0,attackTimer=0,activeBug=null;
+  let waitTimer=0;
+  // SVG y-offset: scene is clipped starting at y=28 (titlebar),
+  // but the scene <g> has clip-path, elements are placed in absolute SVG coords
+  const SCENE_OFFSET_Y = 28; // titlebar height
+
+  const scene = document.getElementById('scene');
+  const scoreText = document.getElementById('scoreText');
+  const logLinesEl = document.getElementById('logLines');
+
+  function svgEl(tag,attrs){
+    const el=document.createElementNS(NS,tag);
+    for(const k in attrs)el.setAttribute(k,attrs[k]);
+    return el;
+  }
+
+  // ── STARS (already in static SVG, but we animate them via JS too for robustness)
+  // Stars are handled by CSS animations in the static SVG above.
+
+  // ── BUGS ──────────────────────────────────────────
+  function makeBug(id,color,name){
+    let x,y,tries=0;
+    do{
+      x=80+Math.random()*(W-300);
+      y=GROUND-BUG_H-10-Math.random()*80;
+      tries++;
+    } while(tries<20 && bugs.some(b=>b.alive&&Math.abs(b.x-x)<70&&Math.abs(b.y-y)<60));
+
+    const g=svgEl('g',{});
+    const C={
+      green:{b:'#27ae60',e:'#ff0040',d:'#0a1a0a',t:'#2ecc71'},
+      red:  {b:'#c0392b',e:'#ff9900',d:'#1a0000',t:'#e74c3c'},
+      purple:{b:'#7d3c98',e:'#d35400',d:'#1a001a',t:'#9b59b6'}
+    };
+    const c=C[color]||C.green;
+
+    const lbl=svgEl('text',{x:0,y:-BUG_H/2-14,'text-anchor':'middle','font-family':'monospace','font-size':'8','fill':c.t});
+    lbl.textContent=name;
+
+    [svgEl('rect',{x:-BUG_W/2-2,y:-BUG_H/2-8,width:7,height:9,rx:1,fill:c.b}),
+     svgEl('rect',{x:BUG_W/2-5,  y:-BUG_H/2-8,width:7,height:9,rx:1,fill:c.b}),
+     svgEl('rect',{x:-BUG_W/2,   y:-BUG_H/2,  width:BUG_W,height:BUG_H,rx:2,fill:c.b}),
+     svgEl('rect',{x:-BUG_W/2+4, y:-BUG_H/2+5,width:9,height:9,rx:1,fill:c.d}),
+     svgEl('rect',{x:BUG_W/2-13, y:-BUG_H/2+5,width:9,height:9,rx:1,fill:c.d}),
+     svgEl('rect',{x:-BUG_W/2+6, y:-BUG_H/2+7,width:4,height:4,fill:c.e}),
+     svgEl('rect',{x:BUG_W/2-11, y:-BUG_H/2+7,width:4,height:4,fill:c.e}),
+     svgEl('rect',{x:-BUG_W/2+4, y:BUG_H/2-12,width:4,height:6,rx:1,fill:c.d}),
+     svgEl('rect',{x:BUG_W/2-8,  y:BUG_H/2-12,width:4,height:6,rx:1,fill:c.d}),
+     svgEl('rect',{x:-BUG_W/2-2, y:BUG_H/2-4, width:8,height:6,rx:1,fill:c.b}),
+     svgEl('rect',{x:BUG_W/2-6,  y:BUG_H/2-4, width:8,height:6,rx:1,fill:c.b}),
+     lbl
+    ].forEach(e=>g.appendChild(e));
+
+    const svgX = x + BUG_W/2;
+    const svgY = y + BUG_H/2 + SCENE_OFFSET_Y;
+    g.setAttribute('transform',`translate(${svgX},${svgY})`);
+    scene.appendChild(g);
+    const bug={id,x,y,color,name,g,alive:true,bobPhase:Math.random()*Math.PI*2};
+    bugs.push(bug);
+    addLog(`[BUG ] ${name} spawned!`,'#e74c3c');
+    return bug;
+  }
+
+  // ── HERO ──────────────────────────────────────────
+  function drawHero(x,y,facing,walkPhase,state,attackT){
+    const old=document.getElementById('heroG');
+    if(old)old.remove();
+    const g=svgEl('g',{id:'heroG'});
+    const bobY=state==='walk'?Math.sin(walkPhase*0.4)*2.5:0;
+    const sc=facing<0?-1:1;
+    const punchy=state==='attack'?Math.min(attackT*2.2,14):0;
+
+    // ears
+    [svgEl('rect',{x:-HERO_W/2-7,y:-HERO_H+19,width:8,height:6,rx:1,fill:'#c47848'}),
+     svgEl('rect',{x:HERO_W/2-1, y:-HERO_H+19,width:8,height:6,rx:1,fill:'#c47848'}),
+     // top head
+     svgEl('rect',{x:-13,y:-HERO_H,width:26,height:3,rx:1,fill:'#c47848'}),
+     // body
+     svgEl('rect',{x:-HERO_W/2,y:-HERO_H+7,width:HERO_W,height:HERO_H-16,rx:2,fill:'#c47848'}),
+     // eyes
+     svgEl('rect',{x:-HERO_W/2+5, y:-HERO_H+13,width:5,height:11,rx:1,fill:'#1a0a00'}),
+     svgEl('rect',{x:HERO_W/2-16,y:-HERO_H+13,width:5,height:11,rx:1,fill:'#1a0a00'}),
+    ].forEach(e=>g.appendChild(e));
+
+    // legs
+    const legOffsets=state==='walk'?[Math.sin(walkPhase*0.4)>0?-3:0,Math.sin(walkPhase*0.4)<0?-3:0,Math.sin(walkPhase*0.4)>0?-3:0,Math.sin(walkPhase*0.4)<0?-3:0]:[0,0,0,0];
+    [[-HERO_W/2+1,-15,8,14],[-HERO_W/2+12,-15,8,14],[HERO_W/2-20,-15,8,14],[HERO_W/2-9,-15,8,14]].forEach(([lx,ly,lw,lh],i)=>{
+      g.appendChild(svgEl('rect',{x:lx,y:ly+legOffsets[i],width:lw,height:lh,rx:1,fill:'#b06030'}));
+    });
+
+    if(state==='attack'){
+      g.appendChild(svgEl('rect',{x:HERO_W/2-2+punchy,y:-HERO_H+18,width:11,height:9,rx:2,fill:'#c47848'}));
+    }
+
+    const svgX = x + HERO_W/2;
+    const svgY = y + HERO_H + bobY + SCENE_OFFSET_Y;
+    g.setAttribute('transform',`translate(${svgX},${svgY}) scale(${sc},1)`);
+    // insert after first child (after stars if any)
+    scene.insertBefore(g, scene.children[0]||null);
+  }
+
+  // ── TIP BUBBLE ────────────────────────────────────
+  function showTip(bugName){
+    if(tipEl)tipEl.remove();
+    const tips={
+      NullPtr: {fix:'if (ptr != null) { }',        desc:'Null guard at line 42',   col:'#58a6ff'},
+      SegFault:{fix:'free(ptr); ptr=NULL;',          desc:'Memory freed safely',     col:'#e74c3c'},
+      InfLoop: {fix:'while(i++ < MAX_ITER)',         desc:'Loop guard added',        col:'#9b59b6'},
+      DeadLock:{fix:'mutex.tryLock(timeout)',        desc:'Timeout lock applied',    col:'#e67e22'},
+      OOM:     {fix:'cache.evict(LRU)',              desc:'LRU eviction done',       col:'#27ae60'}
+    };
+    const t=tips[bugName]||{fix:'auto.fix()',desc:'Auto-patched',col:'#58a6ff'};
+    const g=svgEl('g',{id:'tipbox'});
+    // tip bubble placed at bx=380, by=55 in scene coords → SVG y = 55+28 = 83
+    const bx=380, by=55+SCENE_OFFSET_Y;
+    const mkT=(txt,x,y,fill,size,bold)=>{
+      const el=svgEl('text',{x,y,'font-family':'monospace','font-size':size||9,'fill':fill});
+      if(bold)el.setAttribute('font-weight','bold');
+      el.textContent=txt;
+      return el;
+    };
+    [svgEl('rect',{x:bx,y:by,width:190,height:78,rx:7,fill:'#0d1117',stroke:t.col,'stroke-width':1.5}),
+     mkT('Copilot fix:',         bx+10,by+18,t.col,   9,true),
+     mkT(t.desc,                 bx+10,by+32,'#7ec8e3',8),
+     mkT('> '+t.fix,             bx+10,by+46,'#2ecc71',8),
+     mkT('XP +'+(100+Math.floor(Math.random()*60)),bx+10,by+66,'#555',8),
+    ].forEach(e=>g.appendChild(e));
+    scene.appendChild(g);
+    tipEl=g;
+    tipTimer=200;
+  }
+
+  // ── EXPLOSION ─────────────────────────────────────
+  function showExplosion(x,y){
+    const cols=['#ffcc00','#ff6600','#ff3300','#ffaa00'];
+    const ps=[];
+    for(let i=0;i<7;i++){
+      const a=(i/7)*Math.PI*2;
+      const r=svgEl('rect',{x:x+BUG_W/2-3,y:y+BUG_H/2-3+SCENE_OFFSET_Y,width:5,height:5,rx:1,fill:cols[i%cols.length]});
+      scene.appendChild(r);
+      ps.push({el:r,vx:Math.cos(a)*3.5,vy:Math.sin(a)*3.5,alpha:1,px:x+BUG_W/2,py:y+BUG_H/2+SCENE_OFFSET_Y});
+    }
+    let t=0;
+    const anim=setInterval(()=>{
+      t++;
+      ps.forEach(p=>{
+        p.px+=p.vx;p.py+=p.vy;p.vy+=0.2;p.alpha-=0.07;
+        p.el.setAttribute('x',p.px-2.5);
+        p.el.setAttribute('y',p.py-2.5);
+        p.el.setAttribute('opacity',Math.max(0,p.alpha));
+      });
+      if(t>18){clearInterval(anim);ps.forEach(p=>p.el.remove());}
+    },30);
+  }
+
+  // ── LOG ───────────────────────────────────────────
+  function addLog(text,color){
+    logLines.push({text,color});
+    if(logLines.length>18)logLines.shift();
+    logLinesEl.innerHTML='';
+    const recent=logLines.slice(-4);
+    recent.forEach((l,i)=>{
+      const el=document.createElementNS(NS,'text');
+      el.setAttribute('x','12');
+      el.setAttribute('y', String(82 + i*13)); // stacked lines in log area (y=76+6=82 start)
+      el.setAttribute('font-family','monospace');
+      el.setAttribute('font-size','9');
+      el.setAttribute('fill',l.color);
+      el.setAttribute('opacity','0.35');
+      el.setAttribute('clip-path','url(#logClip)');
+      el.textContent=l.text;
+      logLinesEl.appendChild(el);
+    });
+  }
+
+  // ── SPAWN ─────────────────────────────────────────
+  const bugPool=[
+    {color:'green', name:'NullPtr'},
+    {color:'red',   name:'SegFault'},
+    {color:'purple',name:'InfLoop'},
+    {color:'red',   name:'DeadLock'},
+    {color:'green', name:'OOM'}
+  ];
+  let spawnTimer=100,bugIdCounter=0;
+
+  function spawnBug(){
+    if(bugs.filter(b=>b.alive).length>=3)return;
+    const t=bugPool[Math.floor(Math.random()*bugPool.length)];
+    makeBug(bugIdCounter++,t.color,t.name);
+  }
+
+  // ── MAIN UPDATE LOOP ──────────────────────────────
+  function update(){
+    frame++;heroWalkPhase++;spawnTimer--;
+    if(spawnTimer<=0){spawnBug();spawnTimer=160+Math.floor(Math.random()*120);}
+    if(tipTimer>0)tipTimer--;
+    if(tipTimer===0&&tipEl){tipEl.remove();tipEl=null;}
+
+    const alive=bugs.filter(b=>b.alive);
+    alive.forEach(b=>{
+      b.bobPhase+=0.06;
+      const bx=b.x+BUG_W/2+Math.sin(b.bobPhase)*3;
+      const by=b.y+BUG_H/2+Math.sin(b.bobPhase*0.7)*3+SCENE_OFFSET_Y;
+      b.g.setAttribute('transform',`translate(${bx},${by})`);
+    });
+
+    if(heroState==='idle'){
+      if(waitTimer>0){waitTimer--;return;}
+      const candidates=alive.filter(b=>!b.targeted);
+      if(candidates.length>0){
+        activeBug=candidates[Math.floor(Math.random()*candidates.length)];
+        activeBug.targeted=true;
+        heroState='walkToBug';
+        heroFacing=activeBug.x>heroX?1:-1;
+        addLog(`[HERO] Targeting ${activeBug.name}...`,'#e67e22');
+      }
+    }
+
+    if(heroState==='walkToBug'&&activeBug&&activeBug.alive){
+      const tx=activeBug.x-2;
+      const ty=Math.min(GROUND-HERO_H,activeBug.y+BUG_H-HERO_H+4);
+      const dx=tx-heroX,dy=ty-heroY,d=Math.sqrt(dx*dx+dy*dy);
+      if(d<5){
+        heroX=tx;heroY=ty;heroState='attacking';
+        heroFacing=activeBug.x>heroX?1:-1;
+        attackTimer=0;
+        addLog(`[HERO] Attacking ${activeBug.name}!`,'#ff6600');
+      } else {
+        const spd=Math.min(HERO_SPEED,d);
+        heroX+=(dx/d)*spd;heroY+=(dy/d)*spd;heroFacing=dx>0?1:-1;
+      }
+    }
+
+    if(heroState==='attacking'){
+      attackTimer++;
+      if(attackTimer>55&&activeBug&&activeBug.alive){
+        showExplosion(activeBug.x,activeBug.y);
+        activeBug.g.remove();activeBug.alive=false;
+        score+=100+Math.floor(Math.random()*60);killed++;
+        const kn=activeBug.name;
+        if(scoreText)scoreText.textContent=`BUGS KILLED: ${killed}   SCORE: ${score}   LVL: INF`;
+        addLog(`[KILL] ${kn} destroyed!`,'#2ecc71');
+        heroState='walkToGit';activeBug=null;
+      }
+    }
+
+    if(heroState==='walkToGit'){
+      const tx=W-130,ty=GROUND-HERO_H;
+      const dx=tx-heroX,dy=ty-heroY,d=Math.sqrt(dx*dx+dy*dy);
+      heroFacing=dx>0?1:-1;
+      if(d<6){
+        heroX=tx;heroY=ty;heroState='atGit';waitTimer=110;
+        addLog(`[GIT ] Fetching tip...`,'#58a6ff');
+        const names=['NullPtr','SegFault','InfLoop','DeadLock','OOM'];
+        setTimeout(()=>{
+          showTip(names[(killed-1)%names.length]);
+          addLog(`[TIP ] Fix applied!`,'#2ecc71');
+        },500);
+      } else {
+        const spd=Math.min(HERO_SPEED*1.1,d);
+        heroX+=(dx/d)*spd;heroY+=(dy/d)*spd;
+      }
+    }
+
+    if(heroState==='atGit'){if(waitTimer<=0){heroState='idle';}else{waitTimer--;}}
+
+    const st=(heroState==='walkToBug'||heroState==='walkToGit')?'walk':heroState==='attacking'?'attack':'idle';
+    drawHero(heroX,heroY,heroFacing,heroWalkPhase,st,attackTimer);
+  }
+
+  // ── BOOT ─────────────────────────────────────────
+  spawnBug();spawnBug();
+  drawHero(heroX,heroY,1,0,'idle',0);
+  addLog('[INFO] Battle started!','#28c840');
+  setInterval(update,16);
+})();
+  ]]></script>
+
+  </g><!-- end roundedClip group -->
+
+  <!-- Border on top so it shows over the clipped content -->
+  <rect x="0.75" y="0.75" width="658.5" height="398.5" rx="10" ry="10" fill="none" stroke="#2a2a2a" stroke-width="1.5"/>
+
+</svg>
