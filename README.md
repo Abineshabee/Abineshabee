@@ -6,6 +6,9 @@ System programmer exploring Machine Learning, Deep Learning, Data Science, and C
   <img src="whoami_natural_quote.svg" width="600" /> 
 </p>
 
+<p align="center">
+  <img src="test.svg" width="600" /> 
+</p>
 ## @ Socials
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/abineshabee)
