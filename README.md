@@ -6,7 +6,7 @@ System programmer exploring Machine Learning, Deep Learning, Data Science, and C
 <table align="center">
 <tr>
 <td>
-  <img src="gemini-svg.svg" width="700"/>
+  <img src="fix.svg" width="700"/>
 </td>
 
 <td>
