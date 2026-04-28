@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="144" height="120" viewBox="0 0 72 60" shape-rendering="crispedges">
+  <style>
+    <![CDATA[
+    /* The "pop" effect for the base shapes */
+    @keyframes popIn {
+      0% { opacity: 0; transform: scale(0.5); }
+      70% { transform: scale(1.05); }
+      100% { opacity: 1; transform: scale(1); }
+    }
+
+    /* Eyes booting up */
+    @keyframes bootUp {
+      0% { opacity: 0; }
+      100% { opacity: 1; }
+    }
+
+    /* Whiskers shooting outwards */
+    @keyframes shootLeft {
+      0% { opacity: 0; transform: translateX(10px); }
+      100% { opacity: 1; transform: translateX(0); }
+    }
+    @keyframes shootRight {
+      0% { opacity: 0; transform: translateX(-10px); }
+      100% { opacity: 1; transform: translateX(0); }
+    }
+
+    /* Assigning animations with staggered delays and hardcoded origin for zero-margin accuracy */
+    .head-base {
+      opacity: 0;
+      transform-origin: 36px 40px; 
+      animation: popIn 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards;
+    }
+    
+    .ears {
+      opacity: 0;
+      transform-origin: 36px 40px;
+      /* Starts 0.15s after the head */
+      animation: popIn 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275) 0.15s forwards;
+    }
+
+    .eyes {
+      opacity: 0;
+      /* Starts 0.3s after the head */
+      animation: bootUp 0.3s step-end 0.3s forwards;
+    }
+
+    .whiskers-left {
+      opacity: 0;
+      /* Starts 0.45s after the head */
+      animation: shootLeft 0.2s ease-out 0.45s forwards;
+    }
+
+    .whiskers-right {
+      opacity: 0;
+      /* Starts 0.45s after the head */
+      animation: shootRight 0.2s ease-out 0.45s forwards;
+    }
+    ]]>
+  </style>
+
+  <g class="ears">
+    <rect x="16" y="0" width="12" height="15" fill="#c9d1d9" />
+    <rect x="44" y="0" width="12" height="15" fill="#c9d1d9" />
+  </g>
+
+  <rect class="head-base" x="16" y="20" width="40" height="40" fill="#c9d1d9" />
+  
+  <g class="eyes">
+    <rect x="22" y="34" width="10" height="10" fill="#161b22" />
+    <rect x="40" y="34" width="10" height="10" fill="#161b22" />
+  </g>
+  
+  <g class="whiskers-left">
+    <rect x="0" y="40" width="16" height="3" fill="#c9d1d9" />
+    <rect x="0" y="46" width="16" height="3" fill="#c9d1d9" />
+    <rect x="0" y="52" width="16" height="3" fill="#c9d1d9" />
+  </g>
+
+  <g class="whiskers-right">
+    <rect x="56" y="40" width="16" height="3" fill="#c9d1d9" />
+    <rect x="56" y="46" width="16" height="3" fill="#c9d1d9" />
+    <rect x="56" y="52" width="16" height="3" fill="#c9d1d9" />
+  </g>
+</svg>
