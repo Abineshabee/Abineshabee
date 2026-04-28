@@ -1,4 +1,4 @@
-<h1 align="center">
+<h1>
   <img src="cat.svg" width="45" /> About Me
 </h1>
 
