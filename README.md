@@ -1,6 +1,6 @@
-<p align="center">
-  <img src="cat.svg" width="50px" height="50" />
-  <h1>About Me</h1>
+<p>
+  <img src="cat.svg" width="50" valign="middle">
+  <span style="font-size:32px; font-weight:bold;">About Me</span>
 </p>
 
 System programmer exploring Machine Learning, Deep Learning, Data Science, and Cybersecurity, focused on research and building intelligent systems. I like turning ideas into code, data into insights, and bugs into unexpected learning experiences.
