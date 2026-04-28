@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="cat.svg" width="200px" />
+  <img src="cat.svg" width="150px" height="150" />
 </p>
 # About Me
 
