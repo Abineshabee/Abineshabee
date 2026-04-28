@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="gemini-svg.svg" width="1300" /> 
+</p>
+
 # About Me
 
 System programmer exploring Machine Learning, Deep Learning, Data Science, and Cybersecurity, focused on research and building intelligent systems. I like turning ideas into code, data into insights, and bugs into unexpected learning experiences.
@@ -6,9 +10,6 @@ System programmer exploring Machine Learning, Deep Learning, Data Science, and C
   <img src="whoami_natural_quote.svg" width="600" /> 
 </p>
 
-<p align="center">
-  <img src="gemini-svg.svg" width="1200" /> 
-</p>
 ## @ Socials
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/abineshabee)
