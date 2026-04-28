@@ -5,7 +5,7 @@ System programmer exploring Machine Learning, Deep Learning, Data Science, and C
 
 <p align="center">
   <img src="fix.svg" width="50%" />
-  <img src="terminal.svg" width="30%" />
+  <img src="terminal.svg" width="31%" />
 </p>
 
 ## @ Socials
